@@ -12,6 +12,9 @@ You will need jade installed.
 
 Add this plugin to your Cordova project.
 
+    cordova plugin add cordova-plugin-jade
+or
+
     cordova plugin add https://github.com/DrMoriarty/cordova-plugin-jade
 
 ## Usage
