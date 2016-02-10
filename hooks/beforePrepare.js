@@ -3,10 +3,10 @@
 var execSync = require('child_process').execSync;
 var fs = require('fs');
 
-var coffee_path = 'coffee/'
+var jade_path = 'jade/'
 
-if( !fs.existsSync(coffee_path)) {
-    fs.mkdirSync(coffee_path)
+if( !fs.existsSync(jade_path)) {
+    fs.mkdirSync(jade_path)
 }
 
-execSync("coffee --compile --output www/js/ " + coffee_path)
+execSync("jade --out www/ " + jade_path)
