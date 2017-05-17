@@ -19,6 +19,8 @@ or
 
 ## Usage
 
+Place your jade files in a folder named 'jade' in the root of your Cordova project. The generated html files will be placed into 'www'.
+
 Never think about compiling your Jade files again!
 
 ## License
